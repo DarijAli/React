@@ -5,9 +5,6 @@ import {
 } from 'reactstrap';
 
 
-
-
-
 function RenderDish({ dish }) {
 
     if (dish != null)
@@ -49,9 +46,6 @@ function RenderComments({ comments }) {
         return (
             <div></div>
         )
-
-
-
 }
 
 const DishDetail = (props) => {
